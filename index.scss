@@ -1,3 +1,9 @@
+.container {
+    text-align: center;
+    &:hover {
+        color: blue;
+    }
+}
 .test {
-    color: blue;
+    color: red;
 }
