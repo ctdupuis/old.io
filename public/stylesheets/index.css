@@ -1,12 +1,53 @@
-.container {
+body {
+  margin: 0;
+}
+
+#wrapper {
+  display: block;
+}
+
+#sidebar {
+  display: block;
+  background-color: grey;
+  left: 0;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  margin-right: auto;
+}
+
+#sidebar .icon-container {
+  display: block;
+}
+
+#sidebar .icon-container i {
+  display: block;
+}
+
+#header {
+  background-color: lightcyan;
+  top: 0;
   text-align: center;
 }
 
-.container:hover {
-  color: blue;
+#header h2 {
+  margin: 0 auto auto 5%;
 }
 
-.test {
-  color: red;
+#container {
+  background-color: lightsalmon;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#container .tabhead {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#container .tabhead .tabcontent {
+  height: 100%;
 }
 /*# sourceMappingURL=index.css.map */
