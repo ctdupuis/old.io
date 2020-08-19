@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  display: block;
+  height: 100%;
 }
 
 #sidebar {
@@ -37,17 +37,17 @@ body {
 #container {
   background-color: lightsalmon;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: static;
 }
 
 #container .tabhead {
   text-align: center;
   border: 1px solid black;
+  margin: 0 auto auto 0;
+  padding: 10px;
 }
 
 #container .tabhead .tabcontent {
-  height: 100%;
+  background-color: lightgreen;
 }
 /*# sourceMappingURL=index.css.map */
