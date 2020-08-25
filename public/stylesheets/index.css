@@ -25,7 +25,7 @@ header {
   border-bottom: 2px solid var(--purp);;
 }
 
-header div.box {
+div.box {
   border-bottom: 4px solid var(--blue);
 }
 
@@ -74,26 +74,38 @@ header div.box {
 }
 
 nav.icons {
-  display: block;
+  display: inline;
   text-align: right;
+  background: inherit;
+  position: fixed;
 } 
 
 .icons a {
-  margin: 25px;
-  font-size: 20px;
+  margin: 5px;
+  font-size: 3rem;
   display: block;
-  padding: 10px 5px;
+  /* padding: 10px 5px; */
 }
 
 .icons a i:hover {
-  color: whitesmoke;
+  color: var(--blue);
   text-decoration: none;
 }
 
 .wrapper {
-  display: block;
+  display: inline;
 }
 
+h3 {
+  color: whitesmoke;;
+}
+
+figure.project {
+  text-align: center;
+  background: var(--purp);
+  border-radius: 2px;
+  border: 1px solid var(--blue);
+}
 /* .project-holder {
   margin: 0;
 }
@@ -102,9 +114,6 @@ nav.icons {
   margin: 0;
 }
 
-h3 {
-  margin: 0;
-} */
 
 figure.project {
   background: var(--purp);
@@ -112,3 +121,4 @@ figure.project {
   border-radius: 1px;
   border: 1px solid var(--blue);
 }
+
