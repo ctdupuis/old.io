@@ -1,3 +1,13 @@
+:root {
+  --blue: rgb(67, 147, 218);
+  --purp: rgb(136, 58, 238);
+  --bla: rgb(41, 41, 41)
+}
+
+html {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,22 +15,28 @@ body {
 }
 
 header {
-  position: fixed;
-  background: grey;
+  position: sticky;
   padding: 20px;
   width: 100%;
   height: 30px;
-  text-align: center;
+  text-align: left;
+  background: #000;
+  font-size: 2rem;
+  border-bottom: 2px solid var(--purp);;
+}
+
+header div.box {
+  border-bottom: 4px solid var(--blue);
 }
 
 .left-side h3 {
   margin: 0;
   text-transform: uppercase;
-  color: #1fc0cf;
+  color: var(--blue);
 }
 
 .left-side span {
-  color: #d36bff;
+  color: var(--prup);
 }
 
 .sidebar {
@@ -53,12 +69,46 @@ header {
 .sidebar li:hover {
   color: #fff;
   cursor: pointer;
-  background: #1fc0cf;
+  background: var(--blue);
   transition: background 0.5s ease-in;
 }
 
-.icons i {
-  margin: 5px;
+nav.icons {
+  display: block;
+  text-align: right;
+} 
+
+.icons a {
+  margin: 25px;
   font-size: 20px;
+  display: block;
+  padding: 10px 5px;
 }
 
+.icons a i:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: block;
+}
+
+/* .project-holder {
+  margin: 0;
+}
+
+.project {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+} */
+
+figure.project {
+  background: var(--purp);
+  text-align: center;
+  border-radius: 1px;
+  border: 1px solid var(--blue);
+}
