@@ -74,9 +74,6 @@ div.box {
 }
 
 nav.icons {
-  display: inline;
-  text-align: right;
-  background: inherit;
   position: fixed;
 } 
 
@@ -84,9 +81,14 @@ nav.icons {
   margin-right: auto;
   font-size: 3rem;
   display: block;
-  padding: 50px 5px;
+  padding: 25px;
   border-right: 1px dashed whitesmoke;
   color: whitesmoke;
+}
+
+.icons a i {
+  height: auto;
+  width: 100%
 }
 
 .icons a i:hover {
@@ -96,8 +98,6 @@ nav.icons {
 
 .wrapper {
   display: inline;
-  justify-content: center;
-  width: 100%;
 }
 
 h3 {
@@ -110,14 +110,13 @@ section.projects-section {
 
 div.title {
   background: var(--blue);
-  margin-left: 10%;
-  margin-bottom: -50px;
+  margin: 25px auto -50px 10%;
 }
 
 div.title h2 {
   color: whitesmoke;
-  /* background: var(--blue); */
-  margin: 0;
+  margin: 0 auto auto 15px;
+  padding: 10px;
 }
 
 article.project-holder {
@@ -137,19 +136,15 @@ figure.project iframe {
   padding: 20px 0px;
   border-radius: 5px;
 }
-/* .project-holder {
-  margin: 0;
+
+/* div.project-content {
+  display: inline;
+} */
+
+figcaption.summary {
+  display: inline;
 }
 
-.project {
-  margin: 0;
+figcaption.tech-used {
+  display: inline;
 }
-
-
-figure.project {
-  background: var(--purp);
-  text-align: center;
-  border-radius: 1px;
-  border: 1px solid var(--blue);
-}
-
