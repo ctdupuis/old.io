@@ -85,6 +85,7 @@ nav.icons {
   font-size: 3rem;
   display: block;
   padding: 50px 5px;
+  border-right: 1px dashed whitesmoke;
   color: whitesmoke;
 }
 
