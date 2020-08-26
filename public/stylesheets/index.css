@@ -96,10 +96,32 @@ nav.icons {
 
 .wrapper {
   display: inline;
+  justify-content: center;
+  width: 100%;
 }
 
 h3 {
   color: whitesmoke;;
+}
+
+section.projects-section {
+  justify-content: center;
+}
+
+div.title {
+  background: var(--blue);
+  margin-left: 10%;
+  margin-bottom: -50px;
+}
+
+div.title h2 {
+  color: whitesmoke;
+  /* background: var(--blue); */
+  margin: 0;
+}
+
+article.project-holder {
+  width: 100%;
 }
 
 figure.project {
@@ -107,6 +129,8 @@ figure.project {
   background: var(--purp);
   border-radius: 2px;
   border: 1px solid var(--blue);
+  width: 80%;
+  margin: 55px auto;
 }
 
 figure.project iframe {
