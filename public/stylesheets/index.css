@@ -11,7 +11,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: url('../images/sky.jpg');
+  
 }
 
 header {
@@ -20,7 +21,7 @@ header {
   width: 100%;
   height: 30px;
   text-align: left;
-  background: #000;
+  background: url('../images/sky.jpg');
   font-size: 2rem;
   border-bottom: 2px solid var(--purp);;
 }
@@ -75,20 +76,20 @@ div.box {
 
 nav.icons {
   position: fixed;
+  border-right: 1px dashed whitesmoke;
 } 
 
 .icons a {
-  margin-right: auto;
+  padding-right: 10px;
   font-size: 3rem;
   display: block;
-  padding: 25px;
-  border-right: 1px dashed whitesmoke;
+  margin: 25px;
   color: whitesmoke;
 }
 
 .icons a i {
   height: auto;
-  width: 100%
+  width: 100%;
 }
 
 .icons a i:hover {
@@ -111,6 +112,7 @@ section.projects-section {
 div.title {
   background: var(--blue);
   margin: 25px auto -50px 10%;
+  border-radius: 10px;
 }
 
 div.title h2 {
@@ -126,7 +128,7 @@ article.project-holder {
 figure.project {
   text-align: center;
   background: var(--purp);
-  border-radius: 2px;
+  border-radius: 10px;
   border: 1px solid var(--blue);
   width: 80%;
   margin: 55px auto;
